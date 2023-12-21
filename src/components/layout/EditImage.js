@@ -48,7 +48,7 @@ export default function EditImage({ link, setLink }) {
             
         {!link && (
                 <div className='bg-gray-200 p-4 text-gray-500 rounded-lg mb-1 text-center'>
-                    Pas d'image
+                    Pas d&apos;image
                 </div>
         )}
         
