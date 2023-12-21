@@ -48,7 +48,7 @@ export default function ProductFormProps({ name, addLabel, props, setProps }) {
            
             <div className={isOpen ? 'block' : 'hidden'}>
                 {props?.length > 0 && props.map((size, index) => (
-                    <div className="flex items-end gap-2">
+                    <div key={index} className="flex items-end gap-2">
                         <div>
                             <label>Nom</label>
                             <input value={size.name}
