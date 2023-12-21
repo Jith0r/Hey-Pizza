@@ -50,7 +50,7 @@ export default function LoginPage() {
                     Connexion avec Google
                 </button>
                 <div className="text-center my-4 text-gray-500 border-t pt-4">
-                    Vous n'êtes pas membre ? <Link className="underline" href={'/register'}>Inscrivez-vous !</Link>
+                    Vous n&apos;êtes pas membre ? <Link className="underline" href={'/register'}>Inscrivez-vous !</Link>
                 </div>
             </form>
         </section>
