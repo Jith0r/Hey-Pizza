@@ -7,7 +7,7 @@ import { Toaster } from 'react-hot-toast'
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] })
 
 export const metadata = {
-  title: 'Hey Pizza - unkn0w_ind',
+  title: 'Hey Pizza - DEMO',
   description: 'Application de commande de pizza en ligne',
 }
 
